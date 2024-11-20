@@ -7,6 +7,7 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
+- [Testing](#testing)
 
 ## Introduction
 
@@ -29,3 +30,10 @@ To use **get_next_line**, clone the repository and compile the source files:
 git clone https://github.com/abboudje/get_next_line.git
 cd get_next_line
 make
+```
+
+## Testing
+
+You can test the function with a simple program, as shown in the main.c file. To run the test, execute the following command:
+```bash
+make run_test
